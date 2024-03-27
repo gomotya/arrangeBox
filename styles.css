@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#arrangeBoxContainer {
+  color: #333; 
+  background-color: #f0f0f0; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+#mainContainer {
+  background-color: #fff; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.arrange-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.arrange-box select {
+  width: 100%;
+  height: 200px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.arrange-box select option {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+}
+
+.control-box {
+  margin: 15px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.control-box button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: URW Chancery L, cursive;
+}
+
+.control-box button:hover {
+  background-color: #45a049;
+}
+
+.control-box button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#sortButton {
+  float: right;
+}
+
+.sort-box {
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+.sort-box button {
+  font-family: URW Chancery L, cursive;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.under-control-box {
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+
+
+#setRandomValuesButton {
+  float: right;
+}
+
+.under-control-box button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: URW Chancery L, cursive;
+}
+
+.under-control-box button:hover {
+  background-color: #45a049;
+}
+
+.under-control-box button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#filterInput {
+  font-family: URW Chancery L, cursive;
+  height: 30px;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+
+#customValueInput {
+  font-family: URW Chancery L, cursive;
+  height: 30px;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
